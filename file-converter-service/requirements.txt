@@ -1,0 +1,7 @@
+Flask
+flask-cors
+requests
+PyMuPDF
+python-docx
+pymongo
+

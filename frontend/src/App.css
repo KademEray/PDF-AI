@@ -1,0 +1,65 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh; /* Verringerte Höhe für das Gesamtlayout */
+  background-color: #f4f4f4;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+.pdf-area {
+  border-right: 1px solid #ccc;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh; /* Weniger Höhe für den PDF-Bereich */
+}
+
+.dropzone {
+  border: 1px dashed #007bff;
+  padding: 5px;
+  text-align: center;
+  width: 60%; /* Schmalere Dropzone */
+  height: 80%; /* Geringere Höhe */
+  margin: 2px 0;
+  font-size: 11px;
+}
+
+.chat-area {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 95vh; /* Reduzierte Höhe */
+}
+
+button, .convert-select {
+  font-size: 11px;
+  padding: 4px;
+  width: 30%; /* Kleinere Buttons */
+  margin-top: 2px;
+}
+
+.delete-button, .convert-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.delete-button {
+  background-color: red;
+}
+
+.delete-button:hover,
+.convert-button:hover {
+  background-color: #0056b3;
+}
+
+.convert-select {
+  padding: 3px;
+}
