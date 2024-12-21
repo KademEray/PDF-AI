@@ -1,12 +1,7 @@
-Based on the gathered information, here is a draft of the README file for the repository **PDF-AI**:
-
----
-
 # PDF-AI
 
 ## Introduction
 
-PDF-AI is a JavaScript project aimed at enhancing PDF functionalities with AI capabilities. This repository contains the code and resources necessary to implement and use these features.
 
 ## Installation
 
